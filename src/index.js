@@ -1,4 +1,6 @@
 require('dotenv').config()
+require("babel-core/register");
+require("babel-polyfill")
 
 import http from 'http';
 import express from 'express';
